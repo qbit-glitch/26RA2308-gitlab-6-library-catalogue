@@ -1,0 +1,9 @@
+# id|title|author|year|copies
+101|The C Programming Language|Kernighan and Ritchie|1978|4
+102|Introduction to Algorithms|Cormen|2009|6
+103|Structure and Interpretation of Computer Programs|Abelson|1996|3
+104|The Pragmatic Programmer|Hunt|1999|5
+105|Clean Code|Martin|2008|2
+106|Python Crash Course|Matthes|2015|7
+107|Effective C++|Meyers|1992|3
+108|Design Patterns|Gamma|1994|4

@@ -1,0 +1,7 @@
+Library Catalogue - developer notes
+===================================
+- Data file format is id|title|author|year|copies
+- Keep every source file under 200 lines
+- Run the tests before every commit
+- Python code targets Python 3.8 or newer
+- C code targets C99, C++ code targets C++11
