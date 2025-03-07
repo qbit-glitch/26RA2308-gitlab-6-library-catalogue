@@ -3,6 +3,9 @@
 
 int catalog_add(Book *list, int count, Book b)
 {
+    if (count >= MAX_BOOKS) {
+        return -1;
+    }
     list[count] = b;
     return count + 1;
 }
