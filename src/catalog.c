@@ -1,5 +1,5 @@
 #include <stddef.h>
-#include "inventory.h"
+#include "catalog.h"
 
 int catalog_add(Book *list, int count, Book b)
 {

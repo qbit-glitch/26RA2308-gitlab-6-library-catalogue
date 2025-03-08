@@ -1,5 +1,5 @@
-#ifndef INVENTORY_H
-#define INVENTORY_H
+#ifndef CATALOG_H
+#define CATALOG_H
 
 #define MAX_BOOKS 100
 
