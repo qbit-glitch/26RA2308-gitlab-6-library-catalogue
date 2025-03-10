@@ -9,7 +9,10 @@ from tools.helpers import parse_books
 
 def total_copies(books):
     """Return the total number of copies over all books."""
-    return sum(book["copies"] for book in books)
+    total = 0
+    for i in range(1, len(books)):
+        total += books[i]["copies"]
+    return total
 
 
 def average_copies(books):
