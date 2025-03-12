@@ -1,0 +1,4 @@
+# local settings - do not share
+DB_HOST=localhost
+DB_USER=librarian
+DB_PASSWORD=changeme-123
