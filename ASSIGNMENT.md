@@ -126,11 +126,14 @@ Make three careless edits in one go:
 ```bash
 echo "debug: temporary line" >> NOTES.txt
 echo "# TODO: tidy later" >> tools/helpers.py
-{ echo "<!-- draft -->"; cat README.md; } > README.tmp && mv README.tmp README.md
+{ echo '<!-- draft -->'; cat README.md; } > README.tmp && mv README.tmp README.md
 echo "Draft footer" >> README.md
 ```
 
 * **3.1** `git status`. All three files should be modified but nothing staged.
+
+> Type the `<!-- draft -->` line with **single quotes**, exactly as shown. In a terminal, bash and zsh treat
+> `!` inside double quotes as a history shortcut and fail with `event not found`.
 
 Now stage `tools/helpers.py` completely, but only **part** of `README.md`:
 

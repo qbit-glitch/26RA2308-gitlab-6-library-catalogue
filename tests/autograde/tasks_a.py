@@ -60,7 +60,7 @@ def grade_task2(ctx: Ctx) -> Task:
     t = Task(2, "Reading the history", 20, ctx.repo_mode)
     f = ctx.facts
     s21 = ctx.step("2.1")
-    t.check(2, "2.1 graph shows all 11 published commits",
+    t.check(2, "2.1 graph shows every published commit",
             lambda: "*" in s21 and resolve(all_shas(s21), f.full_shas)[0] >= set(f.full_shas))
     s22 = ctx.step("2.2")
     t.check(1, "2.2 --stat output covers the two newest commits and shows a 'changed' summary",
