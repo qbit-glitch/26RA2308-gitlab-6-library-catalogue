@@ -40,3 +40,8 @@ Run the tests before you commit.
 ## Licence
 
 Released for teaching purposes. Do whatever you like with it.
+
+## Lab assignment
+
+This repository is also the starter for a Git lab. Open `ASSIGNMENT.md`
+for the instructions.

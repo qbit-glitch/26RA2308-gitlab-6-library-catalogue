@@ -8,3 +8,7 @@ build/
 # Editors and OS files
 .vscode/
 .DS_Store
+
+# Assignment files (never committed)
+submission/outputs.txt
+submission/results.txt
